@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:news/constants.dart';
 import 'package:news/screens/preLogin/splashScreen.dart';
 
@@ -26,6 +27,7 @@ class _MyAppState extends State<MyApp> {
         splashColor: theme.withOpacity(0.25),
         highlightColor: theme.withOpacity(0.25),
         scaffoldBackgroundColor: backgroundColor,
+        textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme),
         appBarTheme: const AppBarTheme(
           foregroundColor: grey,
           elevation: 0,
