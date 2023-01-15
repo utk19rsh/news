@@ -1,6 +1,6 @@
-# news
+# News
 
-A new Flutter project.
+A cross-platform news application involving email authentication and fetching data via a custom API.
 
 ## Getting Started
 
